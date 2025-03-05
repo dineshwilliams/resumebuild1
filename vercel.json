@@ -1,0 +1,16 @@
+{
+   "version": 2,
+   "builds": [
+     {
+       "src": "resumebuild1/wsgi.py",
+       "use": "@vercel/python"
+     }
+   ],
+   "routes": [
+     {
+       "src": "/(.*)",
+       "dest": "resumebuild1/wsgi.py"
+     }
+   ]
+ }
+ 

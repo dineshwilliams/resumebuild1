@@ -1,0 +1,422 @@
+body{
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-image: linear-gradient(rgb(230, 223, 223),rgb(159, 230, 230),rgb(164, 206, 164),rgb(245, 245, 106));
+   overflow-x: hidden;
+}
+header {
+   background-color: black;
+   color: white;
+   padding: 1rem 1rem;
+   height: 2rem;
+}
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 2rem;
+}
+
+.nav-links a {
+   color: white;
+   margin-left: 2vh;
+   text-decoration: none;
+   font-size: 1.2rem;
+   position: relative;
+   right: 0.5rem;
+}
+
+.intro {
+   text-align: center;
+   margin: 2rem 0;
+}
+
+.intro img {
+   max-width: 100%;
+   height: auto;
+}
+button {
+   padding: 1.2vh 2vh;
+   background-color: #007BFF;
+   color: white;
+   border: none;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #0056b3;
+}
+
+.info {
+   text-align: center;
+   margin: 2rem 0;
+}
+
+footer {
+   background-color: black;
+}
+.footer-links{
+   font-size: 1.1rem;
+   margin-right: 3rem;
+}
+#ab{
+   margin-left: 12rem;
+   text-decoration: none;
+   color: white;
+   
+}
+#tr{
+   margin-left: 8rem;
+   text-decoration: none;
+   color: white;
+}
+#co{
+   margin-left: 8rem;
+   text-decoration: none;
+   color: white;
+}
+#fa{
+   margin-left: 8rem;
+   text-decoration: none;
+   color: white;
+}
+#fac{
+   margin-left: 8.2rem;
+   text-decoration: none;
+   color: white;
+   font-family: cursive;
+   font-size: large;
+   font-weight: bolder;
+}
+#tw{
+   margin-left: 8.2rem;
+   text-decoration: none;
+   color: white;
+   font-family: cursive;
+   font-size: large;
+   font-weight: bolder;
+}
+#ins{
+   margin-left: 8.2rem;
+   text-decoration: none;
+   color: white;
+   font-family: cursive;
+   font-size: large;
+   font-weight: bolder;
+   background: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+}
+.social-media{
+   margin-left: 10rem;
+   margin-top: 2rem;
+}
+p{
+   font-size: 2.6rem;
+   color: green;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: justify;
+   position: relative;
+   left: 18%;
+   bottom: 12vh;
+}
+#photo{
+   width: 7rem;
+   position: relative;
+   right:-33%;
+   top: 26rem;
+   z-index: 1;
+}
+#rr{
+   font-size: 3.6rem;
+   text-align: justify;
+   position: relative;
+   left: 18%;
+   top: -9vh;
+}
+marquee{
+   width: 100%;
+   height: 4rem;
+   font-size: 2.2rem;
+}
+#crea{
+   width: 17rem;
+   height: 4vh;
+   font-size: 1.7rem;
+   padding-left: 1rem;
+   padding-bottom: 5.3vh;
+   padding-top: 1.5vh;
+   border-radius: 2rem;
+   background-image: linear-gradient( #E92085 , #FD7521);
+   position: relative;
+   bottom: 6.2rem; 
+   right: 13.5%;
+  
+}
+#b2{
+   width: 18rem;
+   height: 4vh;
+   font-size: 1.8rem;
+   padding-left: 1rem;
+   padding-bottom: 2.7rem;
+   border-radius: 2rem;
+   background-image: linear-gradient( #E92085 , #FD7521);
+   position: relative;
+   bottom: 6.2rem;
+   left: -12%;
+}
+#nav1{
+   position: relative;
+   left: 12%;
+   color: aqua;
+   text-decoration: underline;
+}
+#nav2{
+   position: relative;
+   left:-2%
+}
+#temp{
+   width: 19rem;
+   position: relative;
+   left: 65%;
+   bottom: 70vh;
+}
+#content{
+   position: relative;
+   bottom: 65.5vh;
+   left: 18%;
+   font-size: 3.5vw;
+   text-align: justify;
+}
+#crea1{
+   text-decoration: none;
+   color: white;
+}
+#crea2{
+   text-decoration: none;
+   color: white;
+}
+#cam{
+   width: 1.7rem;
+   position: relative;
+   bottom: 61vh;
+   left: 18%;
+}
+#camh{
+   position: relative;
+   bottom: 61vh;
+   left: 18%;
+   font-weight: 30rem;
+   background: linear-gradient(blue,magenta);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+#camp{
+   position: relative;
+   bottom: 61vh;
+   left: 18%;
+   font-weight: lighter;
+}
+#cam1{
+   width: 1.7rem;
+}
+#camh1{
+   font-weight: 3rem;
+   background: linear-gradient(blue,magenta);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+#camp1{
+   font-weight: lighter;
+}
+.slide1{
+   position: relative;
+   left: 42%;
+   bottom: 88vh;
+}
+.slide2{
+   position: relative;
+   left: 68%;
+   bottom: 115vh;
+}
+#arrow{
+   width: 6.5rem;
+   position: relative;
+   left: 25.6%;
+   bottom: 35vh;
+}
+#crea3{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 14rem;
+   height: 3vh;
+   font-size: 1.8rem;
+   padding: 1rem;
+   border-radius: 2rem;
+   background-image: linear-gradient(#E92085, #FD7521);
+   text-decoration: none;
+   color: white;
+   text-align: center;
+   position: relative;
+   left: 53%;
+   bottom: 56vh;
+   box-shadow: 0 0 15px rgba(255, 81, 47, 0.6);
+   transition: all 0.3s ease;
+   animation: bounce 1.5s infinite, glow 1.5s infinite alternate;
+}
+@keyframes bounce {
+   0%, 100% {
+     transform: translateY(0);
+   }
+   50% {
+     transform: translateY(-10px);
+   }
+ }
+ 
+ /* Glow Effect */
+ @keyframes glow {
+   0% {
+     box-shadow: 0 0 15px rgba(255, 81, 47, 0.6);
+   }
+   100% {
+     box-shadow: 0 0 25px rgba(255, 81, 47, 1);
+   }
+ }
+#crea4{
+   text-decoration: none;
+   color: white;
+}
+#mh{
+   position: absolute;
+   bottom: -87vh;
+   left: 19%;
+   text-align: center;
+   font-size: 3.4rem;
+   font-weight: 5rem;
+} 
+#review{
+   color: blue;
+   text-decoration: NONE;
+   text-decoration-color: #E92085;
+   /* text-decoration-style:NONE; */
+}
+#mp{
+   position: absolute;
+   bottom: -99vh;
+   left: 50%;
+   font-size: 1.4rem;
+   font-weight: light;
+}
+#ms{
+   position: absolute;
+   bottom: -103vh;
+   left: 50%;
+   font-size: 1rem;
+   font-weight: lighter;
+}
+#mp1{
+   position: absolute;
+   bottom: -109vh;
+   left: 50%;
+   font-size: 1.4rem;
+   font-weight: light;
+}
+#ms1{
+   position: absolute;
+   bottom: -116vh;
+   left: 50%;
+   font-size: 1rem;
+   font-weight: lighter;
+}
+#mp2{
+   position: absolute;
+   bottom: -121vh;
+   left: 50%;
+   font-size: 1.4rem;
+   font-weight: light;
+}
+#ms2{
+   position: absolute;
+   bottom: -125vh;
+   left: 50%;
+   font-size: 1rem;
+   font-weight: lighter;
+}
+#mp3{
+   position: absolute;
+   bottom: -131vh;
+   left: 50%;
+   font-size: 1.4rem;
+   font-weight: light;
+}
+#ms3{
+   position: absolute;
+   bottom: -135vh;
+   left: 50%;
+   font-size: 1rem;
+   font-weight: lighter;
+}
+#crea5{
+   width: 18rem;
+   height: 4vh;
+   font-size: 1.8rem;
+   padding-left: 1rem;
+   padding-bottom: 2.7rem;
+   border-radius: 2rem;
+   background-image: linear-gradient( #E92085 , #FD7521);
+   position: absolute;
+   bottom: -146vh;
+   left: 50%;
+
+}
+#crea6{
+   text-decoration: none;
+   color: white;
+}
+#image{
+   width: 26.7rem;
+   position: absolute;
+   bottom: -151vh;
+   left: 17%;
+}
+.footers{
+   position: relative;
+   left: 11%;
+   bottom: 1vh;
+}
+.footers1{
+   position: relative;
+   left: 10%;
+   top: 0.8vh;
+}
+#res{
+   background: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+#job{
+   background: linear-gradient(90deg, red, blue);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+#insta_footer{
+   width: 1rem;
+   position: relative;
+   left: 0.5rem;
+   top: 0.2rem;
+}
+#twitter_footer{
+   width: 2.2rem;
+   position: relative;
+   left: -0.1rem;
+   top: 0.7rem;
+}
+#fb_footer{
+   width: 1rem;
+   position: relative;
+   left: 0.5rem;
+   top: 0.2rem;
+}

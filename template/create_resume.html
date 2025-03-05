@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templates</title>
+    <style>
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: linear-gradient(rgb(159, 230, 230),rgb(230, 223, 223),rgb(164, 206, 164),rgb(245, 245, 106));
+        }
+        .division {
+            width: 500px;
+            height: 400px;
+            margin: 10px;
+            border-radius: 0% 15% 0% 15%;
+            box-shadow: -3px -3px 5px black;
+            position: relative; 
+            overflow: hidden;
+        }
+        .division img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .division button {
+            position: absolute; 
+            bottom: 8%;
+            left: 30%;
+            width: 200px;
+            height: 40px;
+            font-size: 25px;
+            text-align: center;
+            font-weight: bolder;
+            padding-left: 20px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            border-radius: 20px;
+            background-image: linear-gradient( #E92085 , #FD7521);
+            cursor: pointer;
+            z-index: 1;
+        }
+        .division button a {
+            color: white;
+            text-decoration: none;
+            font-size: 25px;
+            position: relative;
+            bottom: 12px;
+        }
+        .division button:hover {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="division">
+        <img src="../static/images/image6.jpg" alt="Image 1">
+        <button><a href="https://docs.google.com/document/d/1dgFfsUVnpdIFo3_3abibK2mSWM8X15xSOro0yYtjydY/edit?tab=t.0">Click Here</a></button>
+    </div>
+    <div class="division">
+        <img src="../static/images/image7.jpg" alt="Image 2">
+        <button><a href="https://docs.google.com/document/d/1cVRx-BEdmaIefN4InRTpNNI3H7YC_JWA9QQbIXIe-BM/edit?tab=t.0#heading=h.5x0d5h95i329">Click Here</a></button>
+    </div>
+    <div class="division">
+        <img src="../static/images/image8.jpg" alt="Image 3">
+        <button><a href="https://docs.google.com/document/d/1JMODDm6omQTMMIayMF_PxaZsnew3jBbm/edit">Click Here</a></button>
+    </div>
+    <div class="division">
+        <img src="../static/images/image3.jpg" alt="Image 4">
+        <button><a href="https://docs.google.com/document/d/1BwQtG0YWe8zQmp3bzbqrq8drzg0Vcj7T/edit">Click Here</a></button>
+    </div>
+    <div class="division">
+        <img src="../static/images/image2.jpg" alt="Image 5">
+        <button><a href="https://docs.google.com/document/d/19Oe_1FBwYUtU4ybdPcE3tqKdFxyBe5od/edit">Click Here</a></button>
+    </div>
+    <div class="division">
+        <img src="../static/images/image5.jpg" alt="Image 6">
+        <button><a href="https://docs.google.com/document/d/1QRtnGyAOlqenc4XDcbboR9fliO1hHjr1/edit">Click Here</a></button>
+    </div>
+    <div class="division">
+        <img src="../static/images/image1.jpg" alt="Image 7">
+        <button><a href="https://docs.google.com/document/d/189fDwf1yIgi3YrHd4uSTULHXlpJTAemb/edit">Click Here</a></button>
+    </div>
+    <div class="division">
+        <img src="../static/images/image4.jpg" alt="Image 8" id="img8">
+        <button><a href="https://docs.google.com/document/d/1wRjV_BbrkoZDefEPQUG5QGJhHi2rMBfw/edit">Click Here</a></button>
+    </div>
+</body>
+</html>

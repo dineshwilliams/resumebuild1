@@ -1,0 +1,128 @@
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+   font-family: Arial, sans-serif;
+   background-color: rgb(186, 156, 156);
+}
+.login-container {
+   background-color: rgba(100, 84, 84, 0.5);
+   backdrop-filter: blur(5px); 
+   -webkit-backdrop-filter: blur(5px);          
+   border-radius: 0% 15% 0% 15%;
+   width: 100%;
+   max-width: 35rem;
+   height: 27rem;
+   overflow: hidden;
+}
+.login-container h2 {
+   margin-bottom: 1.5rem;
+   white-space: nowrap;
+   transform: translateX(-100%);
+   animation: slide-in 2s ease-out forwards;
+}
+   @keyframes slide-in {
+      from {
+          transform: translatex(100vw);
+      }
+      to {
+          transform: translateX(0);
+      }
+  }
+h2{
+   text-align: center;
+   font-size: 2.2rem;
+   padding: none;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background: linear-gradient( #833ab4, #fd1d1d, #fcb045);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.form-group label {
+   display: block;
+   margin-bottom: 0.5rem;
+   font-weight: bold;
+}
+.form-group input {
+   width: 29rem;
+   padding: 0.9rem;
+   margin-left: 2rem;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 1rem;
+}
+.pass{
+   position: relative;
+   top: 3rem;
+}
+.em{
+   position: relative;
+   top: 1.2rem;
+}
+p{
+   position: relative;
+   left: 2rem;
+   top: 4.5rem;
+}
+#box1{
+   position: relative;
+   left: 2rem;
+}
+#box2{
+   position: relative;
+   left: 2rem;
+}
+button{
+   width: 8rem;
+   height: 2.2rem;
+   font-size: 1.3rem;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bolder;
+   border-radius: 30% 0% 30% 0%;
+   border-radius: none;
+   outline: none;
+   box-shadow: inset 0.1rem 0.1rem 0.01rem blue;
+   position: relative;
+   text-align: center;
+   color: aqua;
+   background-color: black;
+   left: 2rem;
+   top: 4rem;  
+   white-space: nowrap;
+   transform: translateY(-100%);
+   animation: slide-in 2s ease-out forwards;
+}
+/* #forgot-password {
+   color: white;
+   text-decoration: none;
+   position: relative;
+   left: 2rem;
+   top: 5rem;
+}
+.social-login {
+   text-align: center;
+   margin-top: 2rem;
+}
+
+.google-btn, .facebook-btn {
+   display: block;
+   width: 80%;
+   padding: 10px;
+   margin: 10px auto;
+   text-align: center;
+   font-size: 1.2rem;
+   border-radius: 5px;
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+}
+
+.google-btn {
+   background-color: #db4437;
+}
+
+.facebook-btn {
+   background-color: #3b5998;
+} */

@@ -1,0 +1,81 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <script src="{% static 'js/home.js' %}" defer></script>
+</head>
+<body id="web">
+    <header>
+        <nav>
+            <div class="logo"></div><span id="nav1">New!</span><span id="nav2">Get hired faster with a resume review.</span>
+            <div class="nav-links">
+                <a id="contact" href="{% url 'myapp1:contact' %}">Contact Us</a>
+                <a id="login" href="{% url 'myapp1:login' %}">Login</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <marquee behavior="" direction="">✍️Resume Builder🎓</marquee>
+        <section class="intro">
+            <img src="{% static 'images/resume.png' %}"  alt="Intro Image" id="photo">
+            <h1 id="rr"> <span id="job">Job-Winning</span><br>Resume Templates</h1>
+        </section>
+        <section class="info">
+            <p style="color: blue;">Good resumes are key to landing<br> your<span style="color: orangered;"> Dream Job</span>.Choose a <span style="color: orangered;">Template </span> <br> that suits your style.</p>
+            <button id="crea"> <a href="{% url 'myapp1:login' %}" id="crea1">Create Resume</a></button> <button id="b2"> <a href="{% url 'myapp1:login' %}" id="crea2">Choose Template</a></button>
+        </section>
+    </main>
+    <a href="{% url 'myapp1:login' %}"><img src="{% static 'images/template.png' %}" alt="Template PDF" id="temp">
+        </a>
+    <img src="../static/images/arrow.png" alt="" id="arrow">
+    <a href="{% url 'myapp1:login' %}" id="crea3">Templates</a>
+    <span>
+        <h1 id="content">Create a <span id="res">Resume</span><br>that Gets Results</h1>
+        <img src="../static/images/camera.png" alt="" id="cam">
+        <h2 id="camh">Recruiter-Approved <br>Resume</h2> 
+        <h4 id="camp">We work with recruiters to <br> design resume templates that <br> format automatically.</h4>
+        <img src="../static/images/timer.png" alt="" id="cam1" class="slide1"> 
+        <h2 id="camh1" class="slide1"> Finish Your Resume <br> in 15 Minutes</h2>
+        <h4 id="camp1" class="slide1"> Resume Now helps you tackle your <br> work experience by reminding you <br> what you did at your job.</h4>
+        <img src="../static/images/bag.png" alt="" id="cam1" class="slide2"> 
+        <h2 id="camh1" class="slide2"> Land an Interview</h2>
+        <h4 id="camp1" class="slide2"> We suggest the skills you should <br> add. It helped over a million <br> people get interviews.</h4>
+    </span>
+    <span>
+        <h1 id="mh">Our resume builder <span id="review">includes a review</span><br> from one of our experts</h1>
+        <h2 id="mp">Real feedback from a Resume Analyst</h2>
+        <h4 id="ms">We’ll read your resume carefully and suggest improvements</h4>
+        <h2 id="mp1">Section-by-section suggestions</h2>
+        <h4 id="ms1">Get detailed feedback on your summary, skills, work history <br> and education sections</h4>
+        <h2 id="mp2">Get answers specific to your resume</h2>
+        <h4 id="ms2">Submit any questions you have for additional guidance</h4>
+        <h2 id="mp3">Quick turnaround</h2>
+        <h4 id="ms3">Get your review back in just 2-3 business days</h4>
+        <img src="../static/images/professional-resume-review.png" alt="" id="image">
+    </span>
+    <button id="crea5"> <a href="{% url 'myapp1:login' %}" id="crea6">Choose Template</a></button>
+    <footer>
+        <div class="footer-links">
+            <a href="" id="ab" class="footers1">About</a>
+            <a href="" id="tr" class="footers1">Terms and Conditions</a>
+            <a href="" id="co" class="footers1">Contact Us</a>
+            <a href="" id="fa" class="footers1">FAQs</a>
+            <div class="social-media">
+                <a href="" id="fac" class="footers"><span style="color: blue;">Facebook</span>
+                    <img src="../static/images/facebook.png" alt="" id="fb_footer">
+                </a>
+                <a href="" id="tw" class="footers"><span style="color: grey;">Twitter</span>
+                    <img src="../static/images/twitter.png" alt="" id="twitter_footer">
+                </a>
+                <a href="" id="ins" class="footers"><span>Instagram</span>
+                    <img src="../static/images/insta.png" alt="" id="insta_footer">
+                </a> 
+        </div>
+    </footer>
+</body>
+</html>
+

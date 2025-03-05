@@ -1,0 +1,41 @@
+{% load static %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+         
+        {% if error %}      
+
+            <div class="error-message">
+                <p>{{ error }}</p>
+            </div>
+        {% endif %}
+        
+        <form method="POST">
+            {% csrf_token %}
+            <marquee behavior="" direction="">✍️Resume Builder🎓</marquee>
+            <div class="form-group">
+                <label id="box1" class="em" for="email">Email:</label>
+                <input class="em" type="email" id="email" name="email" required placeholder="Enter Email" >
+            </div>
+            
+            <div class="form-group">
+                <label class="pass" id="box2"for="password">Password:</label>
+                <input class="pass" type="password" id="password" name="password" required placeholder="Enter Password">
+            </div>
+            
+            <button type="submit">Login</button>
+        </form>
+
+        <p>➡️ Don't have an account? <a id="signup" href="{% url 'myapp1:signup' %}">Sign up here</a></p>
+    </div>
+</body>
+</html>
+  
