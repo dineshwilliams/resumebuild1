@@ -1,10 +1,9 @@
-body{
+/* body{
    font-family: Arial, sans-serif;
    margin: 0;
    padding: 0;
    background-image: linear-gradient(rgb(230, 223, 223),rgb(159, 230, 230),rgb(164, 206, 164),rgb(245, 245, 106));
-   overflow-x: hidden;
-}
+   overflow-x: hidden; */
 @media  (max-width: 768px) {
    body{
       font-family: Arial, sans-serif;
@@ -13,9 +12,6 @@ body{
       background-image: linear-gradient(rgb(230, 223, 223),rgb(159, 230, 230),rgb(164, 206, 164),rgb(245, 245, 106));
       overflow-x: hidden;
    }
-   
-}
-
 header {
    background-color: black;
    color: white;
@@ -430,4 +426,5 @@ marquee{
    position: relative;
    left: 0.5rem;
    top: 0.2rem;
+}
 }
